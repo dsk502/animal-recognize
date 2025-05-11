@@ -175,6 +175,7 @@ cython_debug/
 
 # macOS DS_STORE
 .DS_STORE/
+.DS_STORE
 
 # datasets
 animal_dataset/train/*
