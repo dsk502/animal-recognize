@@ -178,7 +178,11 @@ cython_debug/
 .DS_STORE
 
 # datasets
-animal_dataset/train/*
-!animal_dataset/train/.gitkeep
-animal_dataset/test/*
-!animal_dataset/test/.gitkeep
+
+# models and runs
+model/*
+!model/.gitkeep
+train/model/*
+!train/model/.gitkeep
+train/runs/*
+!train/runs/.gitkeep
