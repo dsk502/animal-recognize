@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# macOS DS_STORE
+.DS_STORE/
+
+# datasets
+animal_dataset/train/*
+!animal_dataset/train/.gitkeep
+animal_dataset/test/*
+!animal_dataset/test/.gitkeep
